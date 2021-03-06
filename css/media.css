@@ -1,0 +1,148 @@
+@media (max-width: 410px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-150%);
+    transition: all 0.9s;
+    background-color: rgb(225, 208, 233);
+  }
+  .menu__items {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu__items-item {
+    margin-left: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .menu__btn {
+    margin-left: auto;
+  }
+  .menu__button {
+    display: block;
+    border: none;
+    cursor: pointer;
+    margin-left: 0px;
+    background-color: #ffff;
+    padding: 0;
+    outline: none;
+  }
+  .header__inner {
+    align-items: end;
+  }
+  .menu.menu--active {
+    transform: translateY(0%);
+  }
+  .content {
+    margin-top: -200px;
+    padding: 50px 0 50px;
+  }
+  .content__title {
+    font-size: 57px;
+    line-height: 65px;
+    margin-bottom: 30px;
+  }
+  .icons {
+    padding: 50px 0 50px;
+  }
+  .icons__inner {
+    flex-direction: column-reverse;
+  }
+  .icons__content {
+    padding: 20px 0px 10px 17px;
+  }
+  .icons__content img {
+    margin-bottom: 25px;
+  }
+  .designed {
+    margin-bottom: 50px;
+  }
+  .designed__subtitle {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .task {
+    margin-bottom: 60px;
+  }
+  .task__subtitle {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .building {
+    margin-bottom: 50px;
+  }
+  .building__title {
+    font-size: 33px;
+    line-height: 50px;
+  }
+  .building__subtitle {
+    width: 100%;
+    font-size: 18px;
+    line-height: 29px;
+  }
+  .private {
+    margin-bottom: 60px;
+  }
+  .private__subtitle {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .wondering__content {
+    width: 100%;
+    padding: 25px 0px 0px 26px;
+    margin-bottom: 30px;
+  }
+  .wondering__inner-title {
+    font-size: 24px;
+  }
+  .wondering__inner-text {
+    font-size: 17px;
+  }
+  .wondering__inner-text--first,
+  .wondering__inner-text--second,
+  .wondering__inner-text--third,
+  .wondering__inner-text--four,
+  .wondering__inner-text--five {
+    width: 100%;
+    font-size: 17px;
+  }
+  .habits {
+    margin-top: -150px;
+    margin-bottom: 70px;
+  }
+  .habits__link {
+    margin-bottom: 15px;
+  }
+  .footer {
+    padding-top: 15px;
+    margin-bottom: 50px;
+  }
+  .footer__inner {
+    width: 100%;
+    flex-direction: column;
+  }
+  .footer__title {
+    font-size: 30px;
+  }
+  .footer__menu {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .menu__item-link {
+    font-size: 15px;
+  }
+  .footer__socialNetwork-link {
+    font-size: 15px;
+  }
+  .footer__email {
+    font-size: 15px;
+  }
+  .footer__logo-footer img {
+    margin-bottom: 15px;
+  }
+  .footer__address,
+  .copyright {
+    font-size: 15px;
+    margin-bottom: 12px;
+  }
+}
