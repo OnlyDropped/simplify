@@ -47,6 +47,9 @@
   text-transform: uppercase;
   color: #6e6d7a;
 }
+.menu__button{
+  display: none;
+}
 .content {
   padding: 151px 0 130px;
 }
